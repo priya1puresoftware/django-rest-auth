@@ -11,5 +11,5 @@ https://docs.djangoproject.com/en/1.7/howto/deployment/wsgi/
     import sys
     BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     sys.path.append(BASE_DIR)
-    os.environ['DJANGO_SETTINGS_MODULE'] = 'YOURAPP.settings'
-    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "YOURAPP.settings")
+    os.environ['DJANGO_SETTINGS_MODULE'] = 'demo.settings'
+    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "demo.settings")
